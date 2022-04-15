@@ -1,16 +1,23 @@
 # simcse
 
 > datasets		数据集文件夹
-> 
-   > cnsd-snli
    > 
-   > STS-B
+      > cnsd-snli
+      > 
+      > STS-B
+   > 
 > saved_model		微调之后保存的模型文件夹
+> 
   data_preprocess.py	snli数据集的数据预处理
+  
   simcse_sup.py		有监督训练
+  
   simcse_sup_2.py  基于sentence_transformers的有监督训练
+  
   simcse_unsup.py	无监督训练
+  
   simcse_unsup_2.py 基于sentence_transformers的无监督训练
+  
   
   知乎链接
   
